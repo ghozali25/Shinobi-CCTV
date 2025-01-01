@@ -10,16 +10,30 @@ Shinobi is the Open Source CCTV Solution written in Node.JS. Designed with multi
 - Troubleshooting Guide : https://hub.shinobi.video/articles/view/v0AFPFchfVcFGUS
 
 instalasi di armbian
-
 ```bash
 sudo apt update
 sudo apt upgrade -y
 sudo apt install git -y
-git clone https://gitlab.com/Shinobi-Systems/Shinobi.git Shinobi
+git clone https://github.com/ghozali25/Shinobi-CCTV.git
 cd Shinobi
 sudo chmod +x INSTALL/ubuntu.sh
 sudo INSTALL/ubuntu.sh
 ```
+
+setting default saja semua dengan ketik perintah N
+ketika muncul untuk PAM Library ketikan "cron"
+ketika muncul setting mariadb lau pilih yes
+
+jika selesai kita tinggal buka shinobinya dengan ketikkan pada browser
+```bash
+http://IP ADDRES LINUX:8080/super
+```
+kita bisa login ke super user dan membuat user baru, untuk masuk ku super user silahkan menggunakan id sebagai berikut
+```bash
+USERNAME : admin@shinobi.video
+PASSWORD : admin
+```
+
 
 #### Docker
 - Install with **Docker** : https://gitlab.com/Shinobi-Systems/Shinobi/-/tree/dev/Docker
