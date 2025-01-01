@@ -20,8 +20,8 @@ sudo chmod +x INSTALL/ubuntu.sh
 sudo INSTALL/ubuntu.sh
 ```
 
-setting default saja semua dengan ketik perintah N
-ketika muncul untuk PAM Library ketikan "cron"
+setting default saja semua dengan ketik perintah N <br>
+ketika muncul untuk PAM Library ketikan "cron"<br>
 ketika muncul setting mariadb lau pilih yes
 
 jika selesai kita tinggal buka shinobinya dengan ketikkan pada browser
